@@ -34,7 +34,7 @@ class title extends Phaser.Scene {
     this.graphics = this.add.graphics();
     this.graphics.fillStyle(0x150019);
     let darkrectangle = this.graphics.fillRect(this.game.config.width/2, 400, 300, 100); //topleft x, topleft y, width, height
-    this.add.text(this.game.config.width/2, 800, "Test").setFontSize(50).setOrigin(0);
+    this.add.text(this.game.config.width/2, 400, "Test").setFontSize(50).setOrigin(0);
     
     this.time.delayedCall(800, () => {
         this.input.on('pointerdown', () => {
