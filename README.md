@@ -1,2 +1,2 @@
 # CMPM-Section-Activity-8
-By Michael Law
+By Michael Law, Poom Phunjamaneechot, and Ellen Brannon
